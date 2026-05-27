@@ -4,7 +4,7 @@
     margin-right: calc(50% - 50vw);
     background-color: #1e9ec5;
     padding: 2rem;
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .links {
@@ -29,18 +29,12 @@
     border: none;
     border-bottom: 2px solid #02707a;
     border-radius: 5px;
-    background-color: #b6ecfc;
+    background-color: #fff;
     font-family: inherit;
 }
 
 
 
 .textarea {
-    padding: .4rem;
-    border: none;
-    border-bottom: 2px solid #02707a;
-    border-radius: 5px;
-    background-color: #b6ecfc;
-    font-family: inherit;
     height: 150px;
 }

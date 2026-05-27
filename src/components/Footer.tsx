@@ -1,7 +1,9 @@
+import styles from '../styles/Footer.module.css'
+
 export default function Footer() {
     return(
-        <footer>
-            <ul>
+        <footer className={styles.footerContainer}>
+            <ul className={styles.linkList}>
                 <li>
                     <a href="#">GH</a>
                 </li>
@@ -12,6 +14,7 @@ export default function Footer() {
                     <a href="#">AGB</a>
                 </li>
             </ul>
+            <span>&copy; Jessica Singlatary</span>
         </footer>
     )
 }

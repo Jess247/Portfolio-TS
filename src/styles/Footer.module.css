@@ -1,0 +1,13 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkList {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+    
+}
