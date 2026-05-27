@@ -1,0 +1,25 @@
+.heroContainer {
+    display: flex;
+    gap: 1rem;
+    margin: 2.5rem 0;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px #1e9ec54b;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignLeft {
+    align-self: start;
+    margin: 0;
+}
+
+.img {
+    border-radius: 5px;
+    width: 400px;
+}
