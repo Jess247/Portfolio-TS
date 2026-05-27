@@ -35,4 +35,14 @@ body {
   margin: 0;
 }
 
+ul {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
 

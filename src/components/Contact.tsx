@@ -1,5 +1,6 @@
-import Button from './Button'
+import ButtonInverted from './ButtonInverted'
 import styles from '../styles/Contact.module.css'
+
 
 export default function Contact() {
     return(
@@ -14,10 +15,10 @@ export default function Contact() {
             </ul>
             <form action="" className={styles.form}>
                 <label htmlFor="name">Name: </label>
-                <input type="text" name="name" />
+                <input type="text" name="name" className={styles.input} />
                 <label htmlFor="msg">Message: </label>
-                <textarea name="msg" id=""></textarea>
-                <Button text="send"/>
+                <textarea name="msg" id="" className={styles.textarea}></textarea>
+                <ButtonInverted text="send"/>
             </form>
         </section>
     )
