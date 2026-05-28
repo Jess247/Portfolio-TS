@@ -12,7 +12,13 @@ h3 {
     align-items: center;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 1px 1px 15px #b6ecfd85;
+    box-shadow: 1px 1px 15px #e4e5e685;
+    margin: 1.5rem 0;
+    transition: 1s ease-out;
+}
+
+.card:hover {
+        box-shadow: 1px 1px 8px #75cbf3ab;
 }
 
 .img {

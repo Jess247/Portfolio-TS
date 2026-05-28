@@ -1,8 +1,10 @@
 .navbar {
+    max-width: 1150px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
     padding: .8rem 2rem;
-    box-shadow: 1px 1px 8px #cbf1fd;
+    box-shadow: 0 4px 2px -2px  #cbf1fd;
 }
