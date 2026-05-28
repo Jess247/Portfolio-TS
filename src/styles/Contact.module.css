@@ -1,7 +1,6 @@
 .contactContainer {
-    max-width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+    width: 100%;
+    margin: 0 auto;
     background-color: #1e9ec5;
     padding: 2rem;
     color: #fff;
