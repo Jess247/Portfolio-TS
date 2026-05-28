@@ -1,6 +1,5 @@
 import ButtonInverted from './ButtonInverted'
 import styles from '../styles/Contact.module.css'
-import { TiSocialGithub, TiSocialLinkedin   } from "react-icons/ti";
 import { IoIosMail, IoLogoWhatsapp, IoLogoGithub, IoLogoLinkedin   } from "react-icons/io";
 
 
